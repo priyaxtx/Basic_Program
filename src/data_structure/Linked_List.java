@@ -12,7 +12,7 @@ class LinkedList {
          next = null;
      } // Constructor
  }
-
+//have to learn....
  
  public static void main(String[] args)
  {
