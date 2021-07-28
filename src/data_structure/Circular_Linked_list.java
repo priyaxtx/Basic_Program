@@ -13,7 +13,7 @@ Node next;
 	 }
  }
 	public static void main(String[] args) {
-		
+		Circular_Linked_list c=new Circular_Linked_list();
 
 	}
 
