@@ -7,6 +7,9 @@ public class Circular_Linked_list {
 Node next;
 
 	Node(int data)
+	
+	
+	
 	 {
 		 this.data=data;
 	 }
