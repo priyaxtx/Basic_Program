@@ -1,7 +1,9 @@
 package data_structure;
 
+import java.util.Scanner;
+
 public class Circular_Linked_list {
-	
+	static int searchNode;
 	
 	public class Node
 	{
@@ -40,6 +42,7 @@ public class Circular_Linked_list {
 	
 	public  void display()
 	{
+		int i=0;
 		Node currentNode=head;
 		if(head==null)
 		{
@@ -48,6 +51,12 @@ public class Circular_Linked_list {
 		else
 		{
 			do {
+			
+				i=i+1;	
+				if(searchNode==currentNode.data)
+				{
+				System.out.println("the search value or element is in :"+ i +" node");
+				}
 				
 				System.out.println(currentNode.data+" ");
 				
@@ -60,13 +69,16 @@ public class Circular_Linked_list {
 	
 	public static void main(String[] args) {
 		Circular_Linked_list c=new Circular_Linked_list();
+		
 c.add(3);
 c.add(8);
 c.add(9);
 c.add(2);
 c.add(4);
 c.add(6);
-
+System.out.println("enter the element which you want to search");
+Scanner sc=new Scanner(System.in);
+ searchNode=sc.nextInt();
 c.display();
 
 	}
