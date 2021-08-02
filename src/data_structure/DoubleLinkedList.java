@@ -37,7 +37,10 @@ public class DoubleLinkedList {
 		  //System.out.println(tail.data);
 	  }
 	 }
-	
+	  void insertElementInBetweenDLL()
+	  {
+		  
+	  }
 	
 	public void display() {  
        
