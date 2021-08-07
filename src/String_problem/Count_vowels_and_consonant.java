@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Count_vowels_and_consonant {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		System.out.println("Enter sentence:");
 Scanner sc=new Scanner(System.in);
 String string=sc.nextLine();

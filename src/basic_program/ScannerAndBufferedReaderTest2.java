@@ -17,6 +17,7 @@ public static void main(String[] args) throws IOException {
         
         System.out.println("Your number : " + in1);
         
+        
         // BufferedReader
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
