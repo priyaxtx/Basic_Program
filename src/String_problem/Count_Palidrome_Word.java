@@ -8,7 +8,7 @@ public class Count_Palidrome_Word {
 	{
 		
 		int word_temps_length=word_temp.length();
-		System.out.println(word_temp);
+		System.out.println("this is printinggg   "+word_temp);
 		for(int i=0;i<=word_temps_length;i++,word_temps_length--)
 		{
 			if(word_temp.charAt(word_temps_length-1)!=(word_temp.charAt(i)))
@@ -28,7 +28,7 @@ public class Count_Palidrome_Word {
 		word=sc.nextLine();
 		System.out.println(word);
 		int length_of_word=word.length();
-		for(i=length_of_word-1;i>=1;i--)
+		for(i=length_of_word-1;i>=0;i--)
 		{
 			 str=str+word.charAt(i);
 			
@@ -39,13 +39,36 @@ public class Count_Palidrome_Word {
 			System.out.println(word_temp);
 		}
 		else 
-			System.out.println("else part" + word_temp);
-			if(check_Every_Single_Word_func(word_temp))
+			
+		{
+			
+			
+				this.check_Every_Single_Word_func(word_temp);
+				count++;
+				word=" ";
+				
+				
+			
+			
+			
+			
+		}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		//	System.out.println("else part" + word_temp);
+			/* if(check_Every_Single_Word_func(word_temp))
 			{
 			 	count++;
 			 	System.out.println(word);
 			 	word=" ";
-				}
+				}*/
 		}}
 	
 	
