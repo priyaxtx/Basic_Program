@@ -5,6 +5,8 @@ public class Binary_search_tree_program{
 	void BinarySearchTree(int a[],int first,int last,int key,int mid)
 	{
 		//int temp;
+		
+		
 	
 		while(first<=last){
 			if(a[mid]<key)
