@@ -9,7 +9,7 @@ public class Count_Palidrome_Word {
 		
 		int word_temps_length=word_temp.length();
 		System.out.println("this is printinggg   "+word_temp);
-		for(int i=0;i<=word_temps_length;i++,word_temps_length--)
+		for(int i=0;i<=word_temps_length;i++)
 		{
 			if(word_temp.charAt(word_temps_length-1)!=(word_temp.charAt(i)))
 				return false;
@@ -46,13 +46,7 @@ public class Count_Palidrome_Word {
 				this.check_Every_Single_Word_func(word_temp);
 				count++;
 				word=" ";
-				
-				
-			
-			
-			
-			
-		}
+			}
 			
 			
 			
