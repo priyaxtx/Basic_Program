@@ -20,6 +20,4 @@ public class String_pro {
 			 // b) StringBuffer(int size)
 			 // c) StringBuffer(String str)
 			 // d) StringBuffer(int size , String str)
-	  
-	  
-}}
+	  }}
