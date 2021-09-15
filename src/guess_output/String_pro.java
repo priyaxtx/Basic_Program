@@ -13,8 +13,6 @@ public class String_pro {
 	  StringBuffer sb=new StringBuffer("Hello");  
       sb.replace(1,3,"Java");  
       System.out.println(sb);
-	  
-	  
 	  //Which of the following are incorrect form of StringBuffer class constructor?
 			 // a) StringBuffer()
 			 // b) StringBuffer(int size)
